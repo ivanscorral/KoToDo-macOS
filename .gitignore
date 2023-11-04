@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+xcuserdata/
+*.xccheckout
+*.xcworkspace
+*.xcscmblueprint
+*.xcodeproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# SwiftPM Generated
+.swiftpm/
+
+# Carthage
+Carthage/
+*.framework
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Derived Data
+DerivedData/
+*.moved-aside
+
+# Other
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Backup files
+*~.nib
+
+# SwiftUI Preview Content
+Preview Content/
+
+# KoToDo specific
+KoToDo.xcodeproj/project.xcworkspace/xcuserdata/
+KoToDo.xcodeproj/xcuserdata/
