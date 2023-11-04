@@ -12,6 +12,11 @@
 		0D4B389E2AF6B48F0021A71F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B389D2AF6B48F0021A71F /* Item.swift */; };
 		0D4B38A02AF6B4910021A71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4B389F2AF6B4910021A71F /* Assets.xcassets */; };
 		0D4B38A32AF6B4910021A71F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4B38A22AF6B4910021A71F /* Preview Assets.xcassets */; };
+		0D4B38AF2AF6B5B80021A71F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38AE2AF6B5B80021A71F /* User.swift */; };
+		0D4B38B12AF6B62B0021A71F /* JWTToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B02AF6B62B0021A71F /* JWTToken.swift */; };
+		0D4B38B32AF6B65E0021A71F /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B22AF6B65E0021A71F /* Todo.swift */; };
+		0D4B38B62AF6B84F0021A71F /* HTTPRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */; };
+		0D4B38B82AF6B8EB0021A71F /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		0D4B389F2AF6B4910021A71F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4B38A22AF6B4910021A71F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D4B38A42AF6B4910021A71F /* KoToDo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KoToDo.entitlements; sourceTree = "<group>"; };
+		0D4B38AE2AF6B5B80021A71F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0D4B38B02AF6B62B0021A71F /* JWTToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTToken.swift; sourceTree = "<group>"; };
+		0D4B38B22AF6B65E0021A71F /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequester.swift; sourceTree = "<group>"; };
+		0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		0D4B38982AF6B48F0021A71F /* KoToDo */ = {
 			isa = PBXGroup;
 			children = (
+				0D4B38B42AF6B8400021A71F /* APIRequester */,
+				0D4B38AD2AF6B5A50021A71F /* Models */,
 				0D4B38992AF6B48F0021A71F /* KoToDoApp.swift */,
 				0D4B389B2AF6B48F0021A71F /* ContentView.swift */,
 				0D4B389D2AF6B48F0021A71F /* Item.swift */,
@@ -70,6 +82,25 @@
 				0D4B38A22AF6B4910021A71F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D4B38AD2AF6B5A50021A71F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D4B38AE2AF6B5B80021A71F /* User.swift */,
+				0D4B38B02AF6B62B0021A71F /* JWTToken.swift */,
+				0D4B38B22AF6B65E0021A71F /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0D4B38B42AF6B8400021A71F /* APIRequester */ = {
+			isa = PBXGroup;
+			children = (
+				0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */,
+				0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */,
+			);
+			path = APIRequester;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4B38AF2AF6B5B80021A71F /* User.swift in Sources */,
+				0D4B38B32AF6B65E0021A71F /* Todo.swift in Sources */,
 				0D4B389C2AF6B48F0021A71F /* ContentView.swift in Sources */,
+				0D4B38B82AF6B8EB0021A71F /* APIEndpoints.swift in Sources */,
+				0D4B38B62AF6B84F0021A71F /* HTTPRequester.swift in Sources */,
+				0D4B38B12AF6B62B0021A71F /* JWTToken.swift in Sources */,
 				0D4B389E2AF6B48F0021A71F /* Item.swift in Sources */,
 				0D4B389A2AF6B48F0021A71F /* KoToDoApp.swift in Sources */,
 			);
