@@ -6,18 +6,34 @@
 //
 
 import Foundation
-import SwiftData
+import JWTDecode
 
-@Model
-
-final class JWTToken {
-    var id: UInt32?
-    var token: String
-    var userId: UInt32
-    
-    init(id: UInt32? = nil, token: String, userId: UInt32) {
-        self.id = id
-        self.token = token
-        self.userId = userId
+class JWTToken: Equatable {
+    static func == (lhs: JWTToken, rhs: JWTToken) -> Bool {
+        lhs.token == rhs.token
     }
+    
+    var id: String? = nil
+    var token: String
+    var userId: Int? = nil
+    var username: String? = nil
+    
+    init(token: String) {
+        self.token = token
+        decodeJWT()
+    }
+    
+    private func decodeJWT() {
+        do {
+            let jwt = try decode(jwt: token)
+            
+            self.id = jwt.claim(name: "jti").string
+            self.userId = jwt.claim(name: "userId").integer
+            self.username = jwt.claim(name: "username").string
+            
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
+    
 }

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D0680BF2AFE453600F918C6 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0680BE2AFE453600F918C6 /* BindingExtensions.swift */; };
+		0D0680C22AFE540200F918C6 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0680C12AFE540200F918C6 /* SigninViewModel.swift */; };
+		0D0680C52AFE872B00F918C6 /* JWTDecode in Frameworks */ = {isa = PBXBuildFile; productRef = 0D0680C42AFE872B00F918C6 /* JWTDecode */; };
+		0D0680C82AFEB5F200F918C6 /* UserAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0680C72AFEB5F200F918C6 /* UserAuthManager.swift */; };
+		0D325FB12AFBE24A0099FAD2 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FB02AFBE24A0099FAD2 /* NavigationItem.swift */; };
+		0D325FB32AFBF01E0099FAD2 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FB22AFBF01E0099FAD2 /* Sidebar.swift */; };
+		0D325FB52AFBF4600099FAD2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FB42AFBF4600099FAD2 /* DetailView.swift */; };
+		0D325FB72AFBF4910099FAD2 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FB62AFBF4910099FAD2 /* AddTodoView.swift */; };
+		0D325FB92AFBF49C0099FAD2 /* ListTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FB82AFBF49C0099FAD2 /* ListTodoView.swift */; };
+		0D325FBB2AFBF4DE0099FAD2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FBA2AFBF4DE0099FAD2 /* HomeView.swift */; };
+		0D325FBD2AFD1D850099FAD2 /* SignupHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FBC2AFD1D850099FAD2 /* SignupHandler.swift */; };
+		0D325FC02AFD1FC90099FAD2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FBF2AFD1FC90099FAD2 /* NetworkService.swift */; };
+		0D325FC22AFD1FE40099FAD2 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FC12AFD1FE40099FAD2 /* Endpoints.swift */; };
+		0D325FC52AFD22FE0099FAD2 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D325FC42AFD22FE0099FAD2 /* SignupViewModel.swift */; };
 		0D4B389A2AF6B48F0021A71F /* KoToDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38992AF6B48F0021A71F /* KoToDoApp.swift */; };
 		0D4B389C2AF6B48F0021A71F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B389B2AF6B48F0021A71F /* ContentView.swift */; };
 		0D4B389E2AF6B48F0021A71F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B389D2AF6B48F0021A71F /* Item.swift */; };
@@ -15,11 +29,28 @@
 		0D4B38AF2AF6B5B80021A71F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38AE2AF6B5B80021A71F /* User.swift */; };
 		0D4B38B12AF6B62B0021A71F /* JWTToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B02AF6B62B0021A71F /* JWTToken.swift */; };
 		0D4B38B32AF6B65E0021A71F /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B22AF6B65E0021A71F /* Todo.swift */; };
-		0D4B38B62AF6B84F0021A71F /* HTTPRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */; };
-		0D4B38B82AF6B8EB0021A71F /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */; };
+		0D6991872AF6DD4D00FC7051 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6991862AF6DD4D00FC7051 /* SignUpView.swift */; };
+		0D6991892AF6DDCB00FC7051 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6991882AF6DDCB00FC7051 /* SignInView.swift */; };
+		0D69918B2AF6DDDC00FC7051 /* TodoEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D69918A2AF6DDDC00FC7051 /* TodoEditorView.swift */; };
+		0D9146522AF93561003A4E53 /* LoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9146512AF93561003A4E53 /* LoginHandler.swift */; };
+		0DA1906B2AF7F3B60091931E /* CodableUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA1906A2AF7F3B60091931E /* CodableUser.swift */; };
+		0DA1906D2AF800820091931E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0DA1906C2AF800820091931E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D0680BE2AFE453600F918C6 /* BindingExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		0D0680C12AFE540200F918C6 /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		0D0680C72AFEB5F200F918C6 /* UserAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthManager.swift; sourceTree = "<group>"; };
+		0D325FB02AFBE24A0099FAD2 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		0D325FB22AFBF01E0099FAD2 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		0D325FB42AFBF4600099FAD2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0D325FB62AFBF4910099FAD2 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		0D325FB82AFBF49C0099FAD2 /* ListTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodoView.swift; sourceTree = "<group>"; };
+		0D325FBA2AFBF4DE0099FAD2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0D325FBC2AFD1D850099FAD2 /* SignupHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupHandler.swift; sourceTree = "<group>"; };
+		0D325FBF2AFD1FC90099FAD2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0D325FC12AFD1FE40099FAD2 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		0D325FC42AFD22FE0099FAD2 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		0D4B38962AF6B48F0021A71F /* KoToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D4B38992AF6B48F0021A71F /* KoToDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoToDoApp.swift; sourceTree = "<group>"; };
 		0D4B389B2AF6B48F0021A71F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -30,8 +61,12 @@
 		0D4B38AE2AF6B5B80021A71F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0D4B38B02AF6B62B0021A71F /* JWTToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWTToken.swift; sourceTree = "<group>"; };
 		0D4B38B22AF6B65E0021A71F /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
-		0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequester.swift; sourceTree = "<group>"; };
-		0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		0D6991862AF6DD4D00FC7051 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		0D6991882AF6DDCB00FC7051 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0D69918A2AF6DDDC00FC7051 /* TodoEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoEditorView.swift; sourceTree = "<group>"; };
+		0D9146512AF93561003A4E53 /* LoginHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHandler.swift; sourceTree = "<group>"; };
+		0DA1906A2AF7F3B60091931E /* CodableUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableUser.swift; sourceTree = "<group>"; };
+		0DA1906C2AF800820091931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,15 +74,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D0680C52AFE872B00F918C6 /* JWTDecode in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D0680BD2AFE452200F918C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D0680BE2AFE453600F918C6 /* BindingExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D0680C62AFEB5E300F918C6 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0D0680C72AFEB5F200F918C6 /* UserAuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0D325FAF2AFBE22F0099FAD2 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				0D325FB02AFBE24A0099FAD2 /* NavigationItem.swift */,
+				0D325FB22AFBF01E0099FAD2 /* Sidebar.swift */,
+				0D325FB42AFBF4600099FAD2 /* DetailView.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		0D325FBE2AFD1FB50099FAD2 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				0D325FBF2AFD1FC90099FAD2 /* NetworkService.swift */,
+				0D325FC12AFD1FE40099FAD2 /* Endpoints.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		0D325FC32AFD22F20099FAD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0D325FC42AFD22FE0099FAD2 /* SignupViewModel.swift */,
+				0D0680C12AFE540200F918C6 /* SigninViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		0D4B388D2AF6B48F0021A71F = {
 			isa = PBXGroup;
 			children = (
+				0DA1906C2AF800820091931E /* Info.plist */,
 				0D4B38982AF6B48F0021A71F /* KoToDo */,
 				0D4B38972AF6B48F0021A71F /* Products */,
 			);
@@ -64,7 +145,12 @@
 		0D4B38982AF6B48F0021A71F /* KoToDo */ = {
 			isa = PBXGroup;
 			children = (
-				0D4B38B42AF6B8400021A71F /* APIRequester */,
+				0D0680C62AFEB5E300F918C6 /* Managers */,
+				0D0680BD2AFE452200F918C6 /* Extensions */,
+				0D325FC32AFD22F20099FAD2 /* ViewModels */,
+				0D325FBE2AFD1FB50099FAD2 /* NetworkService */,
+				0D91464F2AF9354D003A4E53 /* Endpoints */,
+				0D6991852AF6DD3100FC7051 /* Views */,
 				0D4B38AD2AF6B5A50021A71F /* Models */,
 				0D4B38992AF6B48F0021A71F /* KoToDoApp.swift */,
 				0D4B389B2AF6B48F0021A71F /* ContentView.swift */,
@@ -90,17 +176,40 @@
 				0D4B38AE2AF6B5B80021A71F /* User.swift */,
 				0D4B38B02AF6B62B0021A71F /* JWTToken.swift */,
 				0D4B38B22AF6B65E0021A71F /* Todo.swift */,
+				0DA1906A2AF7F3B60091931E /* CodableUser.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		0D4B38B42AF6B8400021A71F /* APIRequester */ = {
+		0D6991852AF6DD3100FC7051 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0D4B38B52AF6B84F0021A71F /* HTTPRequester.swift */,
-				0D4B38B72AF6B8EB0021A71F /* APIEndpoints.swift */,
+				0D325FAF2AFBE22F0099FAD2 /* Navigation */,
+				0D6991862AF6DD4D00FC7051 /* SignUpView.swift */,
+				0D6991882AF6DDCB00FC7051 /* SignInView.swift */,
+				0D69918A2AF6DDDC00FC7051 /* TodoEditorView.swift */,
+				0D325FB62AFBF4910099FAD2 /* AddTodoView.swift */,
+				0D325FB82AFBF49C0099FAD2 /* ListTodoView.swift */,
+				0D325FBA2AFBF4DE0099FAD2 /* HomeView.swift */,
 			);
-			path = APIRequester;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D91464F2AF9354D003A4E53 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				0D9146502AF93554003A4E53 /* Users */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		0D9146502AF93554003A4E53 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				0D9146512AF93561003A4E53 /* LoginHandler.swift */,
+				0D325FBC2AFD1D850099FAD2 /* SignupHandler.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +228,9 @@
 			dependencies = (
 			);
 			name = KoToDo;
+			packageProductDependencies = (
+				0D0680C42AFE872B00F918C6 /* JWTDecode */,
+			);
 			productName = KoToDo;
 			productReference = 0D4B38962AF6B48F0021A71F /* KoToDo.app */;
 			productType = "com.apple.product-type.application";
@@ -147,6 +259,9 @@
 				Base,
 			);
 			mainGroup = 0D4B388D2AF6B48F0021A71F;
+			packageReferences = (
+				0D0680C32AFE872B00F918C6 /* XCRemoteSwiftPackageReference "JWTDecode" */,
+			);
 			productRefGroup = 0D4B38972AF6B48F0021A71F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,6 +278,7 @@
 			files = (
 				0D4B38A32AF6B4910021A71F /* Preview Assets.xcassets in Resources */,
 				0D4B38A02AF6B4910021A71F /* Assets.xcassets in Resources */,
+				0DA1906D2AF800820091931E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,12 +290,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4B38AF2AF6B5B80021A71F /* User.swift in Sources */,
+				0D325FB72AFBF4910099FAD2 /* AddTodoView.swift in Sources */,
+				0D325FB52AFBF4600099FAD2 /* DetailView.swift in Sources */,
+				0D325FC52AFD22FE0099FAD2 /* SignupViewModel.swift in Sources */,
+				0D325FB32AFBF01E0099FAD2 /* Sidebar.swift in Sources */,
 				0D4B38B32AF6B65E0021A71F /* Todo.swift in Sources */,
 				0D4B389C2AF6B48F0021A71F /* ContentView.swift in Sources */,
-				0D4B38B82AF6B8EB0021A71F /* APIEndpoints.swift in Sources */,
-				0D4B38B62AF6B84F0021A71F /* HTTPRequester.swift in Sources */,
+				0D6991892AF6DDCB00FC7051 /* SignInView.swift in Sources */,
+				0D325FB92AFBF49C0099FAD2 /* ListTodoView.swift in Sources */,
+				0D0680BF2AFE453600F918C6 /* BindingExtensions.swift in Sources */,
+				0D325FB12AFBE24A0099FAD2 /* NavigationItem.swift in Sources */,
+				0DA1906B2AF7F3B60091931E /* CodableUser.swift in Sources */,
+				0D69918B2AF6DDDC00FC7051 /* TodoEditorView.swift in Sources */,
+				0D325FBB2AFBF4DE0099FAD2 /* HomeView.swift in Sources */,
 				0D4B38B12AF6B62B0021A71F /* JWTToken.swift in Sources */,
+				0D9146522AF93561003A4E53 /* LoginHandler.swift in Sources */,
+				0D325FC22AFD1FE40099FAD2 /* Endpoints.swift in Sources */,
 				0D4B389E2AF6B48F0021A71F /* Item.swift in Sources */,
+				0D325FC02AFD1FC90099FAD2 /* NetworkService.swift in Sources */,
+				0D0680C22AFE540200F918C6 /* SigninViewModel.swift in Sources */,
+				0D0680C82AFEB5F200F918C6 /* UserAuthManager.swift in Sources */,
+				0D6991872AF6DD4D00FC7051 /* SignUpView.swift in Sources */,
+				0D325FBD2AFD1D850099FAD2 /* SignupHandler.swift in Sources */,
 				0D4B389A2AF6B48F0021A71F /* KoToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +451,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -347,6 +480,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -383,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D0680C32AFE872B00F918C6 /* XCRemoteSwiftPackageReference "JWTDecode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/JWTDecode.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D0680C42AFE872B00F918C6 /* JWTDecode */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D0680C32AFE872B00F918C6 /* XCRemoteSwiftPackageReference "JWTDecode" */;
+			productName = JWTDecode;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0D4B388E2AF6B48F0021A71F /* Project object */;
 }

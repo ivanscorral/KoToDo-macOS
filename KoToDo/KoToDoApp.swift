@@ -22,11 +22,14 @@ struct KoToDoApp: App {
             fatalError("Could not create ModelContainer: \(error)")
         }
     }()
-
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserAuthenticationManager())
         }
         .modelContainer(sharedModelContainer)
     }
+    
 }
+
